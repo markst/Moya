@@ -23,7 +23,6 @@ let package = Package(
     products: [
         .library(name: "Moya", targets: ["Moya"]),
         .library(name: "CombineMoya", targets: ["CombineMoya"]),
-        .library(name: "ReactiveMoya", targets: ["ReactiveMoya"]),
         .library(name: "RxMoya", targets: ["RxMoya"])
     ],
     dependencies: [
@@ -61,7 +60,6 @@ let package = Package(
             dependencies: [
                 "Moya",
                 "CombineMoya",
-                "ReactiveMoya",
                 "RxMoya",
                 .product(name: "Quick", package: "Quick"),
                 .product(name: "Nimble", package: "Nimble"),
