@@ -51,13 +51,6 @@ let package = Package(
             ]
         ),
         .target(
-            name: "ReactiveMoya",
-            dependencies: [
-                "Moya",
-                .product(name: "ReactiveSwift", package: "ReactiveSwift")
-            ]
-        ),
-        .target(
             name: "RxMoya",
             dependencies: [
                 "Moya",
